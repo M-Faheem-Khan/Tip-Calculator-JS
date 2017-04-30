@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body{
+	margin: 20px;
+	padding: 0px;
+	font-size: 21px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #efefef;
+	background: #15222B;
+}
+
+#frame{
+	height: 350px;
+	width: 250px;
+	background: #1c2e3a;
+	border: 1px solid #efefef;
+	border-radius: 3px;
+}
+
+#title{
+	font-size: 30px;
+}
+
+#total{
+	outline: none;
+	height: 35px;
+	width: 150px;
+	padding: 5px;
+	border: 1px solid #15222B;
+	border-radius: 3px;
+}
+
+#tip_btn{
+	outline: none;
+	width: 180px;
+	height: 30px;
+	background: #1c2e3a;
+	color: #efefef;
+	border: 1px solid #efefef;
+	border-radius: 3px;
+}

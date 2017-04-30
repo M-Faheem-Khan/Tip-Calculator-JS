@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A simple Tip Calculator</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+	<center>
+		<div id="frame">
+			<p id="title">Tip Calculator</p>
+			<span>$</span>
+			<input id="total" type="number" maxlength="9" minlength="1" min="1" placeholder="Total">
+			<button id="tip_btn" type="submit" onclick="calculate_tip();">Calculate Tip</button>
+			<p id="tip"></p>
+		</div>
+	</center>
+	<!-- Script -->
+	<script type="text/javascript">
+	function calculate_tip() {
+		var total = document.getElementById("total").value;
+		var disp_tip = document.getElementById("tip");
+		// 20 percent of the total = tip
+		tip = 0.2 * total;
+		disp_tip.innerHTML = "Tip: $" + tip; 
+	}
+	</script>
+</body>
+</html>
